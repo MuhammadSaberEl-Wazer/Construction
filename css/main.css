@@ -1,0 +1,211 @@
+/* Start of Body */
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    width: 100%;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title h1 {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title .border {
+    width: 50px;
+    height: 3px;
+    background-color: #27ae60;
+    margin: 10px auto 0px auto;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: #fff;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 1px 1px 10px 0px #000000c9;
+    margin: 0px;
+}
+
+.navbar-default {
+    background: #fff;
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navbar-default .navbar-brand {
+    color: #27ae60;
+}
+
+.navbar-brand {
+    padding: 30px 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #27ae60;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2ecc71;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background: url('../pics/hero.jpeg') fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .65);
+}
+
+.welcome {
+    height: 500px;
+}
+
+.welcome h1 {
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 10px;
+}
+
+.welcome h4 {
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    margin-bottom: 40px;
+}
+
+.welcome a {
+    background: #2ecc71;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+
+/* Services Sectin */
+
+.s_item {
+    border-right: 1px solid #ddd;
+    padding: 20px;
+}
+
+.s_item:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.s_item .s_icon {
+    color: #999;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.s_item h4 {
+    color: #999;
+}
+
+.s_item p {
+    color: #999;
+    line-height: 30px;
+}
+
+
+/* About Section */
+
+.about {
+    background: url('../pics/hero.jpeg') fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about .inner_about {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px 0px;
+}
+
+.about .inner_about p {
+    color: #999;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+/* Work Section */
+
+.work {
+    margin: 20px 0px;
+}
+
+.w_item {
+    margin-bottom: 30px;
+}
+
+
+/* Contact us Section */
+
+.contact input,
+textarea {
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+
+.footer {
+    background: #fff;
+    padding: 20px 0px;
+}
+
+.footer p {
+    color: #666;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #2ecc71;
+}
+
+.footer a:hover {
+    color: #27ae60;
+}
+
+.footer a i {
+    font-size: 20px;
+    margin-right: 10px;
+}
